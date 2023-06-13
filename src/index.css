@@ -1,0 +1,36 @@
+@import 'normalize.css'; /* bring in normalize.css styles */
+
+body {
+  margin: 0;
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: white;
+    background-color: black;
+  background-image: url('https://i.pinimg.com/originals/16/f3/39/16f339d5fac6bddddd923a01979e2964.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1,
+h2,
+h3,
+p,
+ul {
+  margin: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+}
